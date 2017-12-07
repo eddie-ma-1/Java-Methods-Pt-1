@@ -1,0 +1,8 @@
+public class Banana extends Fruit implements Named{
+  private length;
+  public Banana(){
+    super(120,4.8,"Banana");
+    length = 8
+  }
+  
+  

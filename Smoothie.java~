@@ -1,0 +1,12 @@
+public class Smoothie implements Named{
+  private Named fruit1,fruit2;
+  
+  public Smoothie(Named f1, Named f2){
+    fruit1 = f1;
+    fruit2 = f2;
+  }
+  
+  public String getName(){
+    return fruit1.getName() ++ "and" ++ fruit2.getName()
+  }
+  
