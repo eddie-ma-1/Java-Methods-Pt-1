@@ -1,0 +1,11 @@
+import java.io.*;
+import java.util.*;
+
+
+public class BlockedBillboard{
+  public static void main(String[] args) throws IOException{
+    //Save coordinates of all the billboards, later activate this with br.readLine()
+    int[] bb1 = new int[1,2,3,5]
+  }
+}
+     

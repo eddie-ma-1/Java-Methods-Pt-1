@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+public class Hangman
+{
+    public static void main(String[] args)
+    {
+
+    }
+
+    // Prints 50 blank lines to the screen essentially "clearing" the console window
+    public static void clearScreen()
+    {
+    }
+
+    // asks the user for a starting word
+    public static String getWord()
+    {
+      // Your code goes here and you should delete the empty return below
+      return "";
+    }
+
+    // asks the user for a guess letter using a Scanner
+    public static String getLetter()
+    {
+      // Your code goes here and you should delete the empty return below
+      return "";
+    }
+
+    // replaces the dashes in guessedWord with any occurences of the guessedLetter in the answerWord
+    // and returns a new version of the guessedWord
+    //
+    //  As an example, suppose the answer word is "mississippi" and the guessed word thus far is "--ss-ss----"
+    //  If the guessed letter was "i" the String "-ississi--i" would be returned
+    public static String revealLetters( String answerWord, String guessedWord, String guessedLetter )
+    {
+      // Your code goes here and you should delete the empty return below
+      return "";
+    }
+
+    // returns true none of the characters in the String word are dashes (-), otherwise returns false
+    public static boolean wordGuessed( String word )
+    {
+      // Your code goes here and you should delete the return below
+      return false;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
